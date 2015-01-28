@@ -15,6 +15,7 @@ PINB5 in Microcontroller Connecting to EN bit in LCD.
 
 In 4-bit mode the last 4 bits of PORTC are connected to the last for bits of LCD(From D4 to D7).
 
+#Change the ports
 
 You can change the ports of Microcontroller form lcd_lib.c file in the #define part as :
 
@@ -37,5 +38,7 @@ Then use LCD_gotoxy(x,y) function (or LCD4_gotoxy(x,y)) to choose where to write
 To type a character you can use LCD_write('character') function (or LCD4_write('character') for 4-bit mode).
 
 To type String you can use LCD_write_string("string")  function (or LCD4_write_string("string") for 4-bit mode).
+
+To clear the LCD from any characters use LCD_clear() function (or LCD4_clear() function for 4-bit mode).
 
 You can send a custom Command code by using LCD_cmd() function (or LCD4_cmd() for 4-bit mode).
