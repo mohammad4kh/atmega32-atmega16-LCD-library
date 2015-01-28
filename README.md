@@ -17,7 +17,7 @@ In 4-bit mode the last 4 bits of PORTC are connected to the last for bits of LCD
 
 #Change the ports
 
-You can change the ports of Microcontroller form lcd_lib.c file in the #define part as :
+You can change the ports of Microcontroller form lcd_lib.h file in the #define part as :
 
 define LCD_DATA PORTC
 
