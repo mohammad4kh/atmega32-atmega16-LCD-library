@@ -30,9 +30,9 @@ define en PINB5
 
 #How to use the library !!
 
-First you have to Initialize the LCD by the LCD_init() (or LCD4_init in 4-bit mode) function.
+First you have to Initialize the LCD by the LCD_init() function (or LCD4_init() in 4-bit mode).
 
-Then use LCD_gotoxy(x,y) (or LCD4_gotoxy(x,y)) to choose where to write ,the X parameter is the line number, you can choose to write in line 1 or line 2, the Y parameter is the character number in the line.
+Then use LCD_gotoxy(x,y) function (or LCD4_gotoxy(x,y)) to choose where to write ,the X parameter is the line number, you can choose to write in line 1 or line 2, the Y parameter is the character number in the line.
 
 To type a character you can use LCD_write('character') function (or LCD4_write('character') for 4-bit mode).
 
