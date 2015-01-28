@@ -139,3 +139,13 @@ void LCD4_gotoxy(int x, int y)
 		LCD4_cmd(0xC0+y);
 	}
 }
+
+void LCD_clear()
+{
+	LCD_cmd(0x01);
+}
+
+void LCD4_clear()
+{
+	LCD4_cmd(0x01);
+}
