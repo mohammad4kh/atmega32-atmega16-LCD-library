@@ -27,3 +27,15 @@ define rs PINB7
 define rw PINB6
 
 define en PINB5
+
+#How to use the library !!
+
+First you have to Initialize the LCD by the LCD_init() (or LCD4_init in 4-bit mode) function.
+
+Then use LCD_gotoxy(x,y) (or LCD4_gotoxy(x,y)) to choose where to write ,the X parameter is the line number, you can choose to write in line 1 or line 2, the Y parameter is the character number in the line.
+
+To type a character you can use LCD_write('character') function (or LCD4_write('character') for 4-bit mode).
+
+To type String you can use LCD_write_string("string")  function (or LCD4_write_string("string") for 4-bit mode).
+
+You can send a custom Command code by using LCD_cmd() function (or LCD4_cmd() for 4-bit mode).
