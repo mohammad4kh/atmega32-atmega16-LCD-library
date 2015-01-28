@@ -9,3 +9,5 @@ void LCD_write_string(unsigned char*);
 void LCD4_write_string(unsigned char*);
 void LCD_gotoxy(int, int);
 void LCD4_gotoxy(int, int);
+void LCD_clear();
+void LCD4_clear();
