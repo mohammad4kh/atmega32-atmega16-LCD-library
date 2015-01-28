@@ -1,6 +1,5 @@
-#include <avr/io.h>
-#include "lcd_lib.h"
 #define F_CPU 8000000UL    //crystal 8MHz
+#include "lcd_lib.h"
 int main(void)
 {
 	DDRC = 0xFF;
