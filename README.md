@@ -5,15 +5,15 @@ It is a simple LCD library that can be used for 8-bit mode or 4-bit mode.
 
 The ports used here are : 
 
-PORTC in Microcontroller Connecting to Data bits in LCD (From D0 to D7).
+1 - PORTC in Microcontroller Connecting to Data bits in LCD (From D0 to D7).
 
-PINB7 in Microcontroller Connecting to RS bit in LCD.
+2 - PINB7 in Microcontroller Connecting to RS bit in LCD.
 
-PINB6 in Microcontroller Connecting to RW bit in LCD.
+3 - PINB6 in Microcontroller Connecting to RW bit in LCD.
 
-PINB5 in Microcontroller Connecting to EN bit in LCD.
+4 - PINB5 in Microcontroller Connecting to EN bit in LCD.
 
-In 4-bit mode the last 4 bits of PORTC are connected to the last for bits of LCD(From D4 to D7).
+5 - In 4-bit mode the last 4 bits of PORTC are connected to the last for bits of LCD(From D4 to D7).
 
 #Change the ports
 
